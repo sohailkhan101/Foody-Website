@@ -119,3 +119,17 @@ body {
         transform: translateX(-100%);
     }
 }
+
+.cursor {
+    width: 10rem;
+    height: 10rem;
+    background-color: #00ff22;
+    border: 1px solid black;
+    resize: horizontal;
+    overflow: auto;
+}
+
+img {
+    width: 10rem;
+    
+}
