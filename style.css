@@ -283,7 +283,7 @@ header {}
     
 
     .logo {
-        margin-left: 0rem;
+        margin-left: 0.5rem;
         justify-content: center;
         /* font-size: 1.9rem; */
         font-size: 2rem;
@@ -413,12 +413,12 @@ header {}
 /* Login-overley */
 .popup-showhide-wrapper {
     display: none;
-    transition: all 2s ease-in;
+    transition: all 2s ease;
 }
 
 .popup-showhide-wrapper:target {
     display: block;
-    transition: all 2s ease-in;
+    transition: all 2s ease;
 
 }
 
@@ -431,6 +431,7 @@ header {}
     filter: blur(9px);
     width: 100vw;
     height: 100vh;
+    transition: all 2s ease;
 
 }
 
@@ -449,6 +450,7 @@ header {}
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.7);
+    transition: all 2s ease;
     /* background: linear-gradient(orange 25%, black 100%); */
 
 
@@ -468,11 +470,13 @@ header {}
     text-decoration: none;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: all 2s ease;
 
 }
 
 .login-popup-close-btn:hover {
     background-color: #d40000;
+    cursor: pointer;
 }
 
 .login-box h2 {
@@ -552,6 +556,7 @@ header {}
     font-family: sans-serif;
     text-decoration: none;
     font-size: 0.9rem;
+    cursor: pointer;
 
 }
 
